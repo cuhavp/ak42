@@ -20,7 +20,7 @@ public class BMITest extends BaseTest {
     Object[][] testData(){
         return new Object[][]{
                 //String age,String gender,String height,String weight, String expectedResult
-                {"25", "male", "180", "75","BMI = 20.1 kg/m2"},
+                {"25", "male", "180", "65","BMI = 20.1 kg/m2"},
                 {"25", "male", "180", "100","BMI = 30.9 kg/m2"},
                 {"25", "male", "180", "35","BMI = 10.8 kg/m2"},
         };
